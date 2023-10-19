@@ -9,8 +9,7 @@
                     android:toYScale="2.0"
                     android:duration="750"
                     android:pivotX="50%"
-                    android:pivotY="50%"
-                    android:startOffset="1" />
+                    android:pivotY="50%"/>
 
         <rotate
                     android:fromDegrees="0"
@@ -27,5 +26,5 @@
                     android:toYDelta="100.0"
                     android:duration="750" />
 
-6
+
 </set>

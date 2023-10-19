@@ -49,37 +49,38 @@
                     android:layout_height="wrap_content"
                     android:text="Create Alarm Time"
                     android:textAppearance="?attr/textAppearanceHeadline6" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="By pressing buttons, Alarm can be created and cancelled.\n\nCheck current time by looking below real digital clock. "
                     android:textAppearance="?attr/textAppearanceBody2" />
+
                 <ImageView
                     android:id="@+id/heart"
                     android:layout_width="27dp"
                     android:layout_height="27dp"
+                    android:layout_gravity="right"
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="25dp"
-                    android:layout_gravity="right"
-                    android:src="@drawable/heart_animation_list"/>
+                    android:src="@drawable/heart_animation_list" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="15dp"
-                    android:layout_marginBottom="10dp">
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_alarm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Create Alarm"
                         android:backgroundTint="@color/blue"
-                        app:icon="@drawable/baseline_alarm_add_24"
-                         />
+                        android:text="Create Alarm"
+                        app:icon="@drawable/baseline_alarm_add_24" />
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="wrap_content"
@@ -87,8 +88,8 @@
                         android:background="#00FFFFFF"
                         android:text="Cancel Alarm"
                         android:textColor="@color/blue"
-                        app:iconTint="@color/blue"
-                        app:icon="@drawable/baseline_alarm_off_24"/>
+                        app:icon="@drawable/baseline_alarm_off_24"
+                        app:iconTint="@color/blue" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
