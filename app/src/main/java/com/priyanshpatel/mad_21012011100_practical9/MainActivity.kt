@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity() {
         if (hasFocus) {
             alarmanimation.start()
             heartanimation.start()
-        } else {
+        }
+        else {
             alarmanimation.stop()
             heartanimation.stop()
         }

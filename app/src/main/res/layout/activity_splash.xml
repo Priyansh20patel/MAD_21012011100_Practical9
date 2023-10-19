@@ -8,6 +8,7 @@
     android:background="@drawable/gradient_rectangle">
 
     <ImageView
+        android:id="@+id/uvpce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/uvpce_logo_animation_list"
