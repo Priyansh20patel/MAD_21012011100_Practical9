@@ -1,5 +1,4 @@
 package com.priyanshpatel.mad_21012011100_practical9
-
 import android.content.Intent
 import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
@@ -23,10 +22,10 @@ class SplashActivity : AppCompatActivity() {
         val myAnimation = AnimationUtils.loadAnimation(this, R.anim.twin_animation)
         logo.startAnimation(myAnimation)
 
-
+        // Add an animation listener to your animation
         myAnimation.setAnimationListener(object : Animation.AnimationListener {
             override fun onAnimationStart(animation: Animation) {
-
+                // Animation started
             }
 
             override fun onAnimationEnd(animation: Animation) {
